@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+  
+  #box{
+    
+    border: 2px solid red;
+    width:400px;
+height: 400px;
+position: relative;
+overflow:hidden;
+
+  }
+  #box img{
+    width:100%;
+    height: 100%;
+    transition: all 0.4s;
+    
+  }
+  #box:hover img{
+ 
+    transform: scale(0);
+    transition-delay: 0.8s;
+  }
+  #box #container{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    background: black;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding:22px;
+    box-sizing: border-box;
+    
+    transform: scale(0) rotate(-180deg);
+    absolute:0;
+    transition :all 0.4s; 
+    
+    
+  }
+  #box:hover #container
+  {
+    absolute:1;
+    transform:scale(1) rotate(0deg);
+    transition-delay:0.2s;
+  }
+  
+  
+</style>
+  
+
+<body>
+
+<div id="box">
+  
+  <img src="/hover effect/M7A1312_360x.jpg" >
+ <div id="container">
+   
+   <h1>shirt</h1>
+  <p>fuyohiwrhioefbhierhhidf bjisdfhuiefrhuiefsdrs o ufhurhfuifd</p>
+   
+   
+ </div>
+  
+  
+</div>
+
+
+
+</body>
+
+</html>
